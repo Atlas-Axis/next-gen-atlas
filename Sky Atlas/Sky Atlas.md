@@ -4,7 +4,7 @@ This Preamble will be further populated in later iterations of the Atlas.
 
 ## A.0.1 - Atlas Preamble [Article]  <!-- UUID: 56b15d7d-cdd4-4594-bd95-4f094564ac04 -->
 
-This Article contains definitions and general provisions that should be inherited as essential context for the Atlas as a whole.
+This page contains definitions and general provisions that should be inherited as essential context for the Atlas as a whole.
 
 ### A.0.1.1 - Definitions [Section]  <!-- UUID: c7d62f28-1d64-4632-8cd8-4f2b44c51bba -->
 
@@ -280,7 +280,7 @@ Sky Primitives are the core building blocks of the Sky ecosystem, serving as the
 
 ### A.0.1.2 - General Provisions [Section]  <!-- UUID: b5c97151-07b9-4679-8896-478ccafa86b9 -->
 
-This Section contains general provisions that are to be inherited as context for all Atlas documents.
+This page contains general provisions that are to be inherited as context for all Atlas documents.
 
 #### A.0.1.2.1 - Facilitators’ Broad Discretionary Capacity [Core]  <!-- UUID: f18229fe-fbc3-4dc8-ad84-4bca2915f6c4 -->
 
