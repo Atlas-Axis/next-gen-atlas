@@ -7228,10 +7228,6 @@ Integrators are actors that offer access to the Sky Protocol via their frontends
 
 The documents herein define the requirements for Integrators.
 
-###### A.2.2.8.1.2.1.1.1.1 - Alignment [Core]  <!-- UUID: 98e98f68-e749-4d0a-8972-7e36ed166326 -->
-
-The Integrator must be aligned with Sky’s overall strategy regarding promoting adoption of USDS. In the near term, this determination of a prospective or current Integrator’s alignment with Sky’s overall strategy is made by Operational GovOps in consultation with Ecosystem Actor Viridian Advisors. In the future Operational GovOps may make this determination themselves or consult with another actor to do so. Sky Core may choose whether to maintain an Integrator’s Reward Code in its sole and absolute discretion.
-
 ###### A.2.2.8.1.2.1.1.1.2 - Compliance With Local Laws And Regulations As A Condition Precedent To Integrators Receiving Distribution Rewards [Core]  <!-- UUID: f3b4b43d-b2e5-4f56-aeac-9627d3acc31e -->
 
 This document and its subdocuments define the jurisdictional compliance rules applicable to Integrators that operate user-facing frontends that integrate with, and thus offer access to, the Sky Protocol and receive Distribution Rewards.
@@ -7254,18 +7250,6 @@ If Sky Governance removes an Integrator from the Integrator Program, Operational
 
 The documents herein define the process for applying to become an Integrator.
 
-###### A.2.2.8.1.2.1.1.2.1 - Near Term Process [Core]  <!-- UUID: 7fe5dbb2-a07d-4ef9-94de-f54a2d568c57 -->
-
-In the near term, applications are made directly to Ecosystem Actor Viridian Advisors. Viridian Advisors must create and maintain a thread on the Sky Forum for Integrator Applications. Viridian Advisors reviews applications and coordinates with Prime Agents interested in working with specific applicants. Viridian Advisors issues Reward Codes to approved applicants.
-
-###### A.2.2.8.1.2.1.1.2.1.1 - Integrator Program Applications [Active Data Controller]  <!-- UUID: d251bbac-df0e-4aff-a26b-33d60e153e19 -->
-
-The list of Integrator Program applicants is defined as Active Data in [A.2.2.8.1.2.1.1.2.1.1.0.6.1 - List Of Integrator Applications](30db9618-ddf2-4df7-ad81-3f8f3395ff62).
-
-The Active Data is updated as follows:
-- The Responsible Party is Viridian Advisors.
-- The Update Process must follow the protocol for ‘Direct Edit’.
-
 ###### A.2.2.8.1.2.1.1.2.1.1.0.6.1 - List Of Integrator Applications [Active Data]  <!-- UUID: 30db9618-ddf2-4df7-ad81-3f8f3395ff62 -->
 
 The current Integrator Applications are:
@@ -7278,14 +7262,6 @@ In the long term, Integrator applications come exclusively through Prime Agents.
 
 The documents herein define the process for onboarding new Integrators.
 
-###### A.2.2.8.1.2.1.1.3.1 - Near Term Process [Core]  <!-- UUID: fc46821f-9d3d-4807-b519-d54faf546702 -->
-
-The near term Integrator Onboarding process is as follows. When a Prime Agent’s Invocation of the Distribution Reward Primitive involves an actor who is not yet an approved Integrator, that actor must submit an Integrator Application to Viridian Advisors. Viridian Advisors determines, in consultation with Operational GovOps, whether the Integrator Requirements are met, and if so issues a Reward Code to the applicant. After the Reward Code has been issued, the Invocation of the Primitive may proceed.
-
-###### A.2.2.8.1.2.1.1.3.2 - Long Term Process [Core]  <!-- UUID: 0dda062b-5168-47be-bfa8-867f52eaae02 -->
-
-In the long term, Operational GovOps will review Integrator applications and determine whether the prospective partner satisfies the Integrator Requirements; if so, Operational GovOps issues a Reward Code. Operational GovOps may contract with Viridian Advisors or another actor to perform the work of reviewing applications and issuing Reward Codes.
-
 ###### A.2.2.8.1.2.1.2 - Reward Codes [Core]  <!-- UUID: cda71b0c-37cc-4f6a-92a3-b6a14895bfe1 -->
 
 The documents herein define base elements related to Reward Codes.
@@ -7294,21 +7270,9 @@ The documents herein define base elements related to Reward Codes.
 
 The documents herein define the process for assigning Reward Codes.
 
-###### A.2.2.8.1.2.1.2.1.1 - Near Term Process [Core]  <!-- UUID: e00e28d1-dad1-4cff-8ea4-1290c27d3b07 -->
-
-In the near term, Reward Codes are assigned by Ecosystem Actor Viridian Advisors.
-
-###### A.2.2.8.1.2.1.2.1.2 - Long Term Process [Core]  <!-- UUID: 5c7aeef0-3490-4fdd-b486-a825b67285e0 -->
-
-In the long term, Reward Codes are assigned by Operational GovOps. Operational GovOps may contract with Viridian Advisors or another Ecosystem Actor to perform this work for them, at the discretion of Operational GovOps.
-
 ###### A.2.2.8.1.2.1.2.2 - Marking [Core]  <!-- UUID: ec2c6d8a-e10f-471a-8f85-67803159cc37 -->
 
 To be eligible for the Distribution Reward, USDS balances must be "marked" with a Reward Code using the agreed-on Tracking Methodology.
-
-###### A.2.2.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology [Core]  <!-- UUID: 87fd6861-ba8a-4bde-945e-ee9ad37ae3e2 -->
-
-The general Tracking Methodology for Ethereum Mainnet is to specify the Reward Code as a parameter to depositing USDS into the Sky Savings Rate contract or Token Rewards contracts. This on-chain deposit data is then combined with withdrawal data. In the interim, this data is further processed by Ecosystem Actor Viridian Advisors to estimate net deposits associated with the Reward Code on a First In First Out (FIFO) basis. In the long term, Operational Executor Agents will wholly manage this process.
 
 ###### A.2.2.8.1.2.1.2.2.2 - Ethereum Mainnet CoW Swap Tracking Methodology [Core]  <!-- UUID: 1b5cc0ee-0ee8-467e-ab49-33c06ad417dc -->
 
@@ -7325,10 +7289,6 @@ The Tracking Methodologies specified above are not exclusive. Prime Agents and O
 ###### A.2.2.8.1.2.1.2.2.5 - Lifetime [Core]  <!-- UUID: c0b77312-5e88-4311-bfe2-d95a1a2c5a7c -->
 
 USDS balances are eligible for a Distribution Reward for a period of ten (10) years from the date of the event marking the USDS balance with the Reward Code. The date of the marking event is determined based on the Primitive Instance’s specified Tracking Methodology.
-
-###### A.2.2.8.1.2.1.2.3 - Management [Core]  <!-- UUID: 75ddec36-c39e-4333-9ec1-2d329128e848 -->
-
-In the near term, Ecosystem Actor Viridian Advisors manages the list of Actor Reward Codes. In the future, all current Integrators and onboarding Integrators must be specified in [A.2.2.8.1.2.1.5 - Current And Onboarding Integrators](f3952cc5-cde2-46b9-b575-034dda83570b) so that Prime Agents, through their Operational Executor Agents, can onboard new partners themselves without having to go through a single party.
 
 ###### A.2.2.8.1.2.1.3 - Distribution Reward Rate [Core]  <!-- UUID: 57384c49-e499-4c69-b22c-8e1f1dd34759 -->
 
@@ -7501,36 +7461,6 @@ None.
 ###### A.2.2.8.1.2.3.1.1.2 - Dependencies [Core]  <!-- UUID: c89c3cd1-20c4-461f-a220-1754d97e2049 -->
 
 This process is dependent on a Prime Agent Globally Activating the Distribution Reward Primitive pursuant to [A.2.2.8.1.2.2 - Global Activation](49513ac9-43d6-4766-8a51-195e221de3f2).
-
-###### A.2.2.8.1.2.3.1.2 - Process Flow [Core]  <!-- UUID: 75ff9b92-47e1-454f-864b-b74742df918e -->
-
-The process flow is defined herein.
-
-- The Prime Agent identifies an opportunity to drive USDS adoption through a Distribution Reward to either 1) reward an existing Integrator for driving USDS adoption or 2) incentivize a new actor to onboard as an Integrator to drive USDS adoption.
-
-- Existing Integrators
-
-    ◦ The Prime Agent and the third party, if applicable, develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.
-
-- Prospective Integrators
-
-    ◦ Near Term process:
-        - The Prospective Integrator must first apply to the Integrator program and be approved by Viridian Advisors per [A.2.2.8.1.2.1.1.2.1 - Near Term Process](7fe5dbb2-a07d-4ef9-94de-f54a2d568c57).  Post approval, Viridian Advisors issues a Reward Code to the Integrator.
-        - The Prime Agent and the third party develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.
-
-    ◦ Long Term process:
-        - The Prospective Integrator must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.2.8.1.2.1.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Integrator.
-        - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data. Where applicable, the plan should include how the Prime Agent will support the prospective Integrator in including the Reward Code in their on-chain infrastructure.
-
-- The Prime Agent may also be (or choose to be) an Integrator itself and deploy a Reward Code on its frontend to earn the Distribution Reward.
-
-    ◦ Near Term process:
-        -** **If the Prime Agent is not already an approved Integrator, it must apply to the Program and be approved by Viridian Advisors. Post approval, Viridian Advisors issues a Reward Code to the Prime Agent.
-        - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
-
-    ◦ Long Term process:
-        - The Prime Agent must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.2.8.1.2.1.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Prime Agent.
-        - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
 
 ###### A.2.2.8.1.2.3.1.3 - Required Primitive Inputs [Core]  <!-- UUID: 4d5482ad-7944-4073-8fbe-b9dbcd1a27a3 -->
 
@@ -10369,6 +10299,76 @@ The allocations specified in [A.2.3.1.4.1.1 - Allocation To Core Council Buffer]
 ###### A.2.3.1.4.3.2 - Implementation Of Allocations To Governance Accessibility Rewards Paid To Integrators And Prime Agents [Core]  <!-- UUID: b3f97303-4d41-497c-b931-9337c518bd7e -->
 
 The allocations specified in [A.2.3.1.4.1.3 - Allocation To Governance Accessibility Rewards Paid To Integrators](f7ec7f27-632e-462a-b1e8-32bf557cb51f) and [A.2.3.1.4.1.4 - Allocation To Governance Accessibility Rewards Paid To Prime Agents](a266adb7-5af2-4aa9-b64e-ed35bac9b6a5) are effective retroactive to May 19, 2025. These allocations must be included in a future Executive Vote. The amounts to be transferred will be specified in a future iteration of the Atlas.
+
+###### A.2.3.8.1.2.1.1.1.1 - Alignment [Core]  <!-- UUID: 98e98f68-e749-4d0a-8972-7e36ed166326 -->
+
+The Integrator must be aligned with Sky’s overall strategy regarding promoting adoption of USDS. In the near term, this determination of a prospective or current Integrator’s alignment with Sky’s overall strategy is made by Operational GovOps in consultation with Ecosystem Actor Denna Labs. In the future Operational GovOps may make this determination themselves or consult with another actor to do so. Sky Core may choose whether to maintain an Integrator’s Reward Code in its sole and absolute discretion.
+
+###### A.2.3.8.1.2.1.1.2.1 - Near Term Process [Core]  <!-- UUID: 7fe5dbb2-a07d-4ef9-94de-f54a2d568c57 -->
+
+In the near term, applications are made directly to Ecosystem Actor Denna Labs. Denna Labs must create and maintain a thread on the Sky Forum for Integrator Applications. Denna Labs reviews applications and coordinates with Prime Agents interested in working with specific applicants. Denna Labs issues Reward Codes to approved applicants.
+
+###### A.2.3.8.1.2.1.1.2.1.1 - Integrator Program Applications [Active Data Controller]  <!-- UUID: d251bbac-df0e-4aff-a26b-33d60e153e19 -->
+
+The list of Integrator Program applicants is defined as Active Data in [A.2.3.8.1.2.1.1.2.1.1.0.6.1 - List Of Integrator Applications](30db9618-ddf2-4df7-ad81-3f8f3395ff62).
+
+The Active Data is updated as follows:
+- The Responsible Party is Denna Labs.
+- The Update Process must follow the protocol for ‘Direct Edit’.
+
+###### A.2.3.8.1.2.1.1.3.1 - Near Term Process [Core]  <!-- UUID: fc46821f-9d3d-4807-b519-d54faf546702 -->
+
+The near term Integrator Onboarding process is as follows. When a Prime Agent’s Invocation of the Distribution Reward Primitive involves an actor who is not yet an approved Integrator, that actor must submit an Integrator Application to Denna Labs. Denna Labs determines, in consultation with Operational GovOps, whether the Integrator Requirements are met, and if so issues a Reward Code to the applicant. After the Reward Code has been issued, the Invocation of the Primitive may proceed.
+
+###### A.2.3.8.1.2.1.1.3.2 - Long Term Process [Core]  <!-- UUID: 0dda062b-5168-47be-bfa8-867f52eaae02 -->
+
+In the long term, Operational GovOps will review Integrator applications and determine whether the prospective partner satisfies the Integrator Requirements; if so, Operational GovOps issues a Reward Code. Operational GovOps may contract with Denna Labs or another actor to perform the work of reviewing applications and issuing Reward Codes.
+
+###### A.2.3.8.1.2.1.2.1.1 - Near Term Process [Core]  <!-- UUID: e00e28d1-dad1-4cff-8ea4-1290c27d3b07 -->
+
+In the near term, Reward Codes are assigned by Ecosystem Actor Denna Labs.
+
+###### A.2.3.8.1.2.1.2.1.2 - Long Term Process [Core]  <!-- UUID: 5c7aeef0-3490-4fdd-b486-a825b67285e0 -->
+
+In the long term, Reward Codes are assigned by Operational GovOps. Operational GovOps may contract with Denna Labs or another Ecosystem Actor to perform this work for them, at the discretion of Operational GovOps.
+
+###### A.2.3.8.1.2.1.2.2.1 - Ethereum Mainnet General Tracking Methodology [Core]  <!-- UUID: 87fd6861-ba8a-4bde-945e-ee9ad37ae3e2 -->
+
+The general Tracking Methodology for Ethereum Mainnet is to specify the Reward Code as a parameter to depositing USDS into the Sky Savings Rate contract or Token Rewards contracts. This on-chain deposit data is then combined with withdrawal data. In the interim, this data is further processed by Ecosystem Actor Denna Labs to estimate net deposits associated with the Reward Code on a First In First Out (FIFO) basis. In the long term, Operational Executor Agents will wholly manage this process.
+
+###### A.2.3.8.1.2.1.2.3 - Management [Core]  <!-- UUID: 75ddec36-c39e-4333-9ec1-2d329128e848 -->
+
+In the near term, Ecosystem Actor Denna Labs manages the list of Actor Reward Codes. In the future, all current Integrators and onboarding Integrators must be specified in [A.2.3.8.1.2.1.5 - Current And Onboarding Integrators](f3952cc5-cde2-46b9-b575-034dda83570b) so that Prime Agents, through their Operational Executor Agents, can onboard new partners themselves without having to go through a single party.
+
+###### A.2.3.8.1.2.3.1.2 - Process Flow [Core]  <!-- UUID: 75ff9b92-47e1-454f-864b-b74742df918e -->
+
+The process flow is defined herein.
+
+- The Prime Agent identifies an opportunity to drive USDS adoption through a Distribution Reward to either 1) reward an existing Integrator for driving USDS adoption or 2) incentivize a new actor to onboard as an Integrator to drive USDS adoption.
+
+- Existing Integrators
+
+    - The Prime Agent and the third party, if applicable, develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.
+
+- Prospective Integrators
+
+    - Near Term process:
+        - The Prospective Integrator must first apply to the Integrator program and be approved by Denna Labs per [A.2.3.8.1.2.1.1.2.1 - Near Term Process](7fe5dbb2-a07d-4ef9-94de-f54a2d568c57).  Post approval, Denna Labs issues a Reward Code to the Integrator.
+        - The Prime Agent and the third party develop a plan to track USDS utilization attributable to the actor using either on-chain or off-chain data.
+
+    - Long Term process:
+        - The Prospective Integrator must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.3.8.1.2.1.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Integrator.
+        - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data. Where applicable, the plan should include how the Prime Agent will support the prospective Integrator in including the Reward Code in their on-chain infrastructure.
+
+- The Prime Agent may also be (or choose to be) an Integrator itself and deploy a Reward Code on its frontend to earn the Distribution Reward.
+
+    - Near Term process:
+        - ** **If the Prime Agent is not already an approved Integrator, it must apply to the Program and be approved by Denna Labs. Post approval, Denna Labs issues a Reward Code to the Prime Agent.
+        - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
+
+    - Long Term process:
+        - The Prime Agent must first apply to the Integrator program and be approved by Operational GovOps pursuant to [A.2.3.8.1.2.1.1.2.2 - Long Term Process](6283379c-d871-40a9-a915-d716d7df5642). Post approval, Operational GovOps issues a Reward Code to the Prime Agent.
+        - The Prime Agent develops a plan to track USDS utilization attributable to it using either on-chain or off-chain data.
 
 ## A.2.4 - Sky Core Monthly Settlement Cycle [Article]  <!-- UUID: 6f8d5065-d6ff-4add-9a28-eadeffa7ed1a -->
 
